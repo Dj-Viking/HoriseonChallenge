@@ -1,7 +1,7 @@
 # Horiseon Landing-Page Code Refactor
 
 ## Deployment Link:
-
+[Click here to see the Deployment Page!](https://dj-viking.github.io/horiseonChallenge/) 
 
 ## Description:
 This challenge encourages the process known as "Refactor". 
