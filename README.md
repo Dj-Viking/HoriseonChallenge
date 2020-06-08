@@ -10,7 +10,7 @@ For example: instead of using `<div>` tags to separate out sections- use `<secti
 Even though CSS doesn't care what order, HTML does. So keeping the elements in order will help to read both files in sequential order in which the elements will fall in the index.html file.
 
 ## Screenshot of the Landing-Page
-
+![Image of Yaktocat](./assets/images/horiseon-screenshot.png)
 
 
 # Deployment Link:
