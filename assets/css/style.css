@@ -8,6 +8,22 @@ body {
     background-color: #d9dcd6;
 }
 
+/* General Text styling start */
+/* 
+nav link text styling 
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* 
+General paragraph styling 
+*/
+p {
+    font-size: 16px;
+}
+
+/* General Text styling end */
 
 /**********************/
 
@@ -51,22 +67,13 @@ body {
 
 /***************************/
 
-/* General text styling start */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
-/* Text styling end */
-
-/**********************/
+/***************************/
 
 /* Hero section start */
-/* section styling and background image */
+/* 
+section styling and background image 
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -85,6 +92,31 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* Main Service class sections start - */
+/* 
+kept id's the same but there are redundant 
+classes so everything is placed in 
+service class 
+*/
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.service img {
+    max-height: 200px;
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Main Service sections end */
 /* Main section Image float classes start */
 .float-left {
     float: left;
@@ -101,9 +133,14 @@ main {
 /*************************/
 
 /* Benefits aside sections start */
-/* consolidated each benefit
-into single class benefit.
-The different benefits had redundant classes */
+/* 
+consolidated each benefit
+into single class- benefit.
+The different benefits had redundant classes 
+*/
+/* 
+styling the entire benefits aside section 
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -134,29 +171,6 @@ The different benefits had redundant classes */
 
 /***********************************/
 
-/* Service sections start - 
-kept id's the same but there are redundant 
-classes so everything is placed in 
-service class */
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.service img {
-    max-height: 200px;
-}
-
-.service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* Service sections end */
-
 /*****************************/
 
 /* Footer styling start */
@@ -170,5 +184,4 @@ service class */
 .footer h2 {
     font-size: 20px;
 }
-
 /* Footer styling end */
